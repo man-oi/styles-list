@@ -1,0 +1,38 @@
+* {
+    /* BOX MODEL */
+    box-sizing:     content-box;
+    width:          auto;
+    min-width:      0;
+    max-width:      none;
+    height:         auto;
+    min-height:     0;
+    max-height:     none;
+    padding-top:    10px;
+    padding-right:  10px;
+    padding-bottom: 10px;
+    padding-left:   10px;
+    border:         none;
+    outline:        0;
+    margin-top:     0;
+    margin-right:   20px;
+    margin-bottom:  20px;
+    margin-left:    0;
+
+    /* BACKGROUND */
+    background-color:   transparent;
+    background-image:   none;
+
+    /* TEXT */
+    color:          #000;
+    font-size:      14px;
+    font-weight:    normal;
+
+    /* POSITION */
+    position:   static;
+    top:        auto;
+    right:      auto;
+    bottom:     auto;
+    left:       auto;
+    z-index:    0;
+
+}
