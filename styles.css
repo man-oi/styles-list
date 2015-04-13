@@ -20,12 +20,21 @@
 
     /* BACKGROUND */
     background-color:   transparent;
-    background-image:   none;
+    background-image:   url('../img/some.jpg');
+    background-repeat:  no-repeat;
+    background-size:    cover;
 
     /* TEXT */
-    color:          #000;
-    font-size:      14px;
-    font-weight:    normal;
+    color:              #000;
+    text-align:         center;
+    text-indent:        0;
+    text-decoration:    none;
+    font-size:          14px;
+    font-weight:        normal;
+
+    /* DISPLAY */
+    display:    block;
+    overflow:   hidden;
 
     /* POSITION */
     position:   static;
