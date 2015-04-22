@@ -1,6 +1,7 @@
 * {
     /* BOX MODEL */
     box-sizing:     content-box;
+    object-fit:     auto;
     width:          auto;
     min-width:      0;
     max-width:      none;
@@ -44,4 +45,7 @@
     left:       auto;
     z-index:    0;
 
+    /* TRANSFORMS & ANIMATION */
+    transition: width 0.4s ease 0s;
+    transform:  translate(0) rotate(360deg);
 }
