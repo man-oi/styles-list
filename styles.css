@@ -14,6 +14,7 @@
     padding-left:   10px;
     border:         none;
     outline:        0;
+    box-shadow:     none;
     margin-top:     0;
     margin-right:   20px;
     margin-bottom:  20px;
@@ -27,11 +28,15 @@
 
     /* TEXT */
     color:              #000;
+    font-family:        Arial, sans-serif;
+    font-size:          14px;
+    font-weight:        normal;
+    line-height:        2;
+    letter-spacing:     2px;
     text-align:         center;
     text-indent:        0;
     text-decoration:    none;
-    font-size:          14px;
-    font-weight:        normal;
+    text-transform:     lowercase;
 
     /* DISPLAY */
     display:    block;
@@ -48,4 +53,5 @@
     /* TRANSFORMS & ANIMATION */
     transition: width 0.4s ease 0s;
     transform:  translate(0) rotate(360deg);
+    will-change: auto;
 }
