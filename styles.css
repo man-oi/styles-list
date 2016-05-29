@@ -1,57 +1,63 @@
 * {
-    /* BOX MODEL */
-    box-sizing:     content-box;
-    object-fit:     auto;
-    width:          auto;
-    min-width:      0;
-    max-width:      none;
-    height:         auto;
-    min-height:     0;
-    max-height:     none;
-    padding-top:    10px;
-    padding-right:  10px;
+    /* BOX MODEL & CONTENT */
+    content: normal;
+    box-sizing: content-box;
+    object-fit: auto;
+    width: auto;
+    min-width: 0;
+    max-width: none;
+    height: auto;
+    min-height: 0;
+    max-height: none;
+    padding-top: 10px;
+    padding-right: 10px;
     padding-bottom: 10px;
-    padding-left:   10px;
-    border:         none;
-    outline:        0;
-    box-shadow:     none;
-    margin-top:     0;
-    margin-right:   20px;
-    margin-bottom:  20px;
-    margin-left:    0;
+    padding-left: 10px;
+    border: none;
+    outline: 0;
+    box-shadow: none;
+    margin-top: 0;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 0;
 
     /* BACKGROUND */
-    background-color:   transparent;
-    background-image:   url('../img/some.jpg');
-    background-repeat:  no-repeat;
-    background-size:    cover;
+    background-color: transparent;
+    background-image: url('../img/some.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 
     /* TEXT */
-    color:              #000;
-    font-family:        Arial, sans-serif;
-    font-size:          14px;
-    font-weight:        normal;
-    line-height:        2;
-    letter-spacing:     2px;
-    text-align:         center;
-    text-indent:        0;
-    text-decoration:    none;
-    text-transform:     lowercase;
+    color: #000;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 2;
+    letter-spacing: 2px;
+    text-align: center;
+    text-indent: 0;
+    text-decoration: none;
+    text-transform: lowercase;
 
-    /* DISPLAY */
-    display:    block;
-    overflow:   hidden;
+    /* DISPLAY & FLOW */
+    display: block;
+    float: none;
+    overflow: hidden;
+    opacity: 1;
 
     /* POSITION */
-    position:   static;
-    top:        auto;
-    right:      auto;
-    bottom:     auto;
-    left:       auto;
-    z-index:    0;
+    position: static;
+    top: auto;
+    right: auto;
+    bottom: auto;
+    left: auto;
+    z-index: 0;
 
     /* TRANSFORMS & ANIMATION */
     transition: width 0.4s ease 0s;
-    transform:  translate(0) rotate(360deg);
+    transform: translate(0) rotate(360deg);
     will-change: auto;
+
+    /* MISC */
+    cursor: pointer;
 }
